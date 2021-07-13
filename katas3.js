@@ -2,11 +2,11 @@ const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 39
 
 function showResult(param) {
     const daddy = document.getElementById("katas");
-    const div = document.createElement("div");
+    const parag = document.createElement("p");
     const result = document.createTextNode(param);
 
-    div.appendChild(result)
-    daddy.appendChild(div)
+    parag.appendChild(result)
+    daddy.appendChild(parag)
 
 }
 function kata1() {
@@ -211,13 +211,12 @@ function kata18() {
  */
 // function showBonus(){
 // const bonusPai = document.getElementById('bonus');
-// const bonusDiv = document.createElement('div');
+// const bonusP = document.createElement('div');
 
-// bonusDiv.style.background= 'gray';
-// bonusDiv.style.width= 100+'px';
-// bonusDiv.style.height= 20+'px';
-// bonusDiv.style.border = 1+'px solid black'
-// bonusPai.appendChild(bonusDiv);
+// bonusP.style.background= 'gray';
+// bonusP.style.height= 20+'px';
+// bonusP.style.border = 1+'px solid black'
+// bonusPai.appendChild(bonusP);
 // }
 
 function kataBonus1() {
@@ -225,13 +224,13 @@ function kataBonus1() {
     for (let i = 1; i <= 20; i++) {
 
         let bonusPai = document.getElementById('bonus');
-        let bonusDiv = document.createElement('div');
+        let bonusP = document.createElement('div');
 
-        bonusDiv.style.background = 'gray';
-        bonusDiv.style.width = 100 + 'px';
-        bonusDiv.style.height = 20 + 'px';
-        bonusDiv.style.border = 1 + 'px solid black';
-        bonusPai.appendChild(bonusDiv);
+        bonusP.style.background = 'gray';
+        bonusP.style.width = 100 + 'px';
+        bonusP.style.height = 20 + 'px';
+        bonusP.style.border = 1 + 'px solid black';
+        bonusPai.appendChild(bonusP);
     }
 }
 function kataBonus2() {
@@ -239,13 +238,13 @@ function kataBonus2() {
     for (let i = 105; i <= 200; i += 5) {
 
         let bonusPai = document.getElementById('bonus');
-        let bonusDiv = document.createElement('div');
+        let bonusP = document.createElement('div');
 
-        bonusDiv.style.background = 'gray';
-        bonusDiv.style.width = i + 'px';
-        bonusDiv.style.height = 20 + 'px';
-        bonusDiv.style.border = 1 + 'px solid black';
-        bonusPai.appendChild(bonusDiv);
+        bonusP.style.background = 'gray';
+        bonusP.style.width = i + 'px';
+        bonusP.style.height = 20 + 'px';
+        bonusP.style.border = 1 + 'px solid black';
+        bonusPai.appendChild(bonusP);
     }
 }
 
@@ -254,13 +253,13 @@ function kataBonus3() {
     for (let i = 0; i < sampleArray.length; i++) {
 
         let bonusPai = document.getElementById('bonus');
-        let bonusDiv = document.createElement('div');
+        let bonusP = document.createElement('div');
 
-        bonusDiv.style.background = 'gray';
-        bonusDiv.style.width = sampleArray[i] + 'px';
-        bonusDiv.style.height = 20 + 'px';
-        bonusDiv.style.border = 1 + 'px solid black';
-        bonusPai.appendChild(bonusDiv);
+        bonusP.style.background = 'gray';
+        bonusP.style.width = sampleArray[i] + 'px';
+        bonusP.style.height = 20 + 'px';
+        bonusP.style.border = 1 + 'px solid black';
+        bonusPai.appendChild(bonusP);
     }
 }
 
@@ -269,22 +268,22 @@ function kataBonus4() {
     for (let i = 0; i < sampleArray.length; i++) {
         if (i % 2 === 0) {
             let bonusPai = document.getElementById('bonus');
-            let bonusDiv = document.createElement('div');
+            let bonusP = document.createElement('div');
 
-            bonusDiv.style.background = 'gray';
-            bonusDiv.style.width = sampleArray[i] + 'px';
-            bonusDiv.style.height = 20 + 'px';
-            bonusDiv.style.border = 1 + 'px solid black';
-            bonusPai.appendChild(bonusDiv);
+            bonusP.style.background = 'gray';
+            bonusP.style.width = sampleArray[i] + 'px';
+            bonusP.style.height = 20 + 'px';
+            bonusP.style.border = 1 + 'px solid black';
+            bonusPai.appendChild(bonusP);
         } else {
             let bonusPai = document.getElementById('bonus');
-            let bonusDiv = document.createElement('div');
+            let bonusP = document.createElement('div');
 
-            bonusDiv.style.background = 'red';
-            bonusDiv.style.width = sampleArray[i] + 'px';
-            bonusDiv.style.height = 20 + 'px';
-            bonusDiv.style.border = 1 + 'px solid black';
-            bonusPai.appendChild(bonusDiv);
+            bonusP.style.background = 'red';
+            bonusP.style.width = sampleArray[i] + 'px';
+            bonusP.style.height = 20 + 'px';
+            bonusP.style.border = 1 + 'px solid black';
+            bonusPai.appendChild(bonusP);
 
         }
     }
@@ -295,22 +294,22 @@ function kataBonus5() {
     for (let i = 0; i < sampleArray.length; i++) {
         if (sampleArray[i] % 2 === 0) {
             let bonusPai = document.getElementById('bonus');
-            let bonusDiv = document.createElement('div');
+            let bonusP = document.createElement('div');
 
-            bonusDiv.style.background = 'red';
-            bonusDiv.style.width = sampleArray[i] + 'px';
-            bonusDiv.style.height = 20 + 'px';
-            bonusDiv.style.border = 1 + 'px solid black';
-            bonusPai.appendChild(bonusDiv);
+            bonusP.style.background = 'red';
+            bonusP.style.width = sampleArray[i] + 'px';
+            bonusP.style.height = 20 + 'px';
+            bonusP.style.border = 1 + 'px solid black';
+            bonusPai.appendChild(bonusP);
         }else{
             let bonusPai = document.getElementById('bonus');
-            let bonusDiv = document.createElement('div');
+            let bonusP = document.createElement('div');
 
-            bonusDiv.style.background = 'gray';
-            bonusDiv.style.width = sampleArray[i] + 'px';
-            bonusDiv.style.height = 20 + 'px';
-            bonusDiv.style.border = 1 + 'px solid black';
-            bonusPai.appendChild(bonusDiv);
+            bonusP.style.background = 'gray';
+            bonusP.style.width = sampleArray[i] + 'px';
+            bonusP.style.height = 20 + 'px';
+            bonusP.style.border = 1 + 'px solid black';
+            bonusPai.appendChild(bonusP);
         }
     }
 }
