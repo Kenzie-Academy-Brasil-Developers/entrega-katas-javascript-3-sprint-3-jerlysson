@@ -210,41 +210,41 @@ function kata18() {
  * Daqui em diante são os bônus, por sua conta e risco
  */
 // function showBonus(){
-// const bonusPai = document.getElementById('bonus');
-// const bonusP = document.createElement('p');
+// const bonusDivai = document.getElementById('bonus');
+// const bonusDiv = document.createElement('p');
 
-// bonusP.style.background= 'gray';
-// bonusP.style.height= 20+'px';
-// bonusP.style.border = 1+'px solid black'
-// bonusPai.appendChild(bonusP);
+// bonusDiv.style.background= 'gray';
+// bonusDiv.style.height= 20+'px';
+// bonusDiv.style.border = 1+'px solid black'
+// bonusDivai.appendChild(bonusDiv);
 // }
 
 function kataBonus1() {
     // implemente o código do kata bonus 1 aqui
     for (let i = 1; i <= 20; i++) {
 
-        let bonusPai = document.getElementById('bonus');
-        let bonusP = document.createElement('p');
+        let bonusDivai = document.getElementById('bonus');
+        let bonusDiv = document.createElement('div');
 
-        bonusP.style.background = 'gray';
-        bonusP.style.width = 100 + 'px';
-        bonusP.style.height = 20 + 'px';
-        bonusP.style.border = 1 + 'px solid black';
-        bonusPai.appendChild(bonusP);
+        bonusDiv.style.background = 'gray';
+        bonusDiv.style.width = 100 + 'px';
+        bonusDiv.style.height = 20 + 'px';
+        bonusDiv.style.border = 1 + 'px solid black';
+        bonusDivai.appendChild(bonusDiv);
     }
 }
 function kataBonus2() {
     // implemente o código do kata bonus 2 aqui
     for (let i = 105; i <= 200; i += 5) {
 
-        let bonusPai = document.getElementById('bonus');
-        let bonusP = document.createElement('p');
+        let bonusDivai = document.getElementById('bonus');
+        let bonusDiv = document.createElement('div');
 
-        bonusP.style.background = 'gray';
-        bonusP.style.width = i + 'px';
-        bonusP.style.height = 20 + 'px';
-        bonusP.style.border = 1 + 'px solid black';
-        bonusPai.appendChild(bonusP);
+        bonusDiv.style.background = 'gray';
+        bonusDiv.style.width = i + 'px';
+        bonusDiv.style.height = 20 + 'px';
+        bonusDiv.style.border = 1 + 'px solid black';
+        bonusDivai.appendChild(bonusDiv);
     }
 }
 
@@ -252,14 +252,14 @@ function kataBonus3() {
     // implemente o código do kata bonus 3 aqui
     for (let i = 0; i < sampleArray.length; i++) {
 
-        let bonusPai = document.getElementById('bonus');
-        let bonusP = document.createElement('p');
+        let bonusDivai = document.getElementById('bonus');
+        let bonusDiv = document.createElement('div');
 
-        bonusP.style.background = 'gray';
-        bonusP.style.width = sampleArray[i] + 'px';
-        bonusP.style.height = 20 + 'px';
-        bonusP.style.border = 1 + 'px solid black';
-        bonusPai.appendChild(bonusP);
+        bonusDiv.style.background = 'gray';
+        bonusDiv.style.width = sampleArray[i] + 'px';
+        bonusDiv.style.height = 20 + 'px';
+        bonusDiv.style.border = 1 + 'px solid black';
+        bonusDivai.appendChild(bonusDiv);
     }
 }
 
@@ -267,23 +267,23 @@ function kataBonus4() {
     // implemente o código do kata bonus 4 aqui
     for (let i = 0; i < sampleArray.length; i++) {
         if (i % 2 === 0) {
-            let bonusPai = document.getElementById('bonus');
-            let bonusP = document.createElement('p');
+            let bonusDivai = document.getElementById('bonus');
+            let bonusDiv = document.createElement('div');
 
-            bonusP.style.background = 'gray';
-            bonusP.style.width = sampleArray[i] + 'px';
-            bonusP.style.height = 20 + 'px';
-            bonusP.style.border = 1 + 'px solid black';
-            bonusPai.appendChild(bonusP);
+            bonusDiv.style.background = 'gray';
+            bonusDiv.style.width = sampleArray[i] + 'px';
+            bonusDiv.style.height = 20 + 'px';
+            bonusDiv.style.border = 1 + 'px solid black';
+            bonusDivai.appendChild(bonusDiv);
         } else {
-            let bonusPai = document.getElementById('bonus');
-            let bonusP = document.createElement('p');
+            let bonusDivai = document.getElementById('bonus');
+            let bonusDiv = document.createElement('div');
 
-            bonusP.style.background = 'red';
-            bonusP.style.width = sampleArray[i] + 'px';
-            bonusP.style.height = 20 + 'px';
-            bonusP.style.border = 1 + 'px solid black';
-            bonusPai.appendChild(bonusP);
+            bonusDiv.style.background = 'red';
+            bonusDiv.style.width = sampleArray[i] + 'px';
+            bonusDiv.style.height = 20 + 'px';
+            bonusDiv.style.border = 1 + 'px solid black';
+            bonusDivai.appendChild(bonusDiv);
 
         }
     }
@@ -293,23 +293,23 @@ function kataBonus5() {
     // implemente o código do kata bonus 5 aqui
     for (let i = 0; i < sampleArray.length; i++) {
         if (sampleArray[i] % 2 === 0) {
-            let bonusPai = document.getElementById('bonus');
-            let bonusP = document.createElement('p');
+            let bonusDivai = document.getElementById('bonus');
+            let bonusDiv = document.createElement('div');
 
-            bonusP.style.background = 'red';
-            bonusP.style.width = sampleArray[i] + 'px';
-            bonusP.style.height = 20 + 'px';
-            bonusP.style.border = 1 + 'px solid black';
-            bonusPai.appendChild(bonusP);
+            bonusDiv.style.background = 'red';
+            bonusDiv.style.width = sampleArray[i] + 'px';
+            bonusDiv.style.height = 20 + 'px';
+            bonusDiv.style.border = 1 + 'px solid black';
+            bonusDivai.appendChild(bonusDiv);
         }else{
-            let bonusPai = document.getElementById('bonus');
-            let bonusP = document.createElement('p');
+            let bonusDivai = document.getElementById('bonus');
+            let bonusDiv = document.createElement('div');
 
-            bonusP.style.background = 'gray';
-            bonusP.style.width = sampleArray[i] + 'px';
-            bonusP.style.height = 20 + 'px';
-            bonusP.style.border = 1 + 'px solid black';
-            bonusPai.appendChild(bonusP);
+            bonusDiv.style.background = 'gray';
+            bonusDiv.style.width = sampleArray[i] + 'px';
+            bonusDiv.style.height = 20 + 'px';
+            bonusDiv.style.border = 1 + 'px solid black';
+            bonusDivai.appendChild(bonusDiv);
         }
     }
 }

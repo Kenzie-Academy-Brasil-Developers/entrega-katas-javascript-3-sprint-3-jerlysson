@@ -1,0 +1,11 @@
+header, h2{
+    text-align: center;
+}
+p{
+    border: 1px solid black;
+}
+#katas{
+    margin: 0 auto;
+    width: 80vw;
+    border: 2px solid green;
+}
